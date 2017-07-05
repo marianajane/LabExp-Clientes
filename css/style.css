@@ -26,7 +26,7 @@ footer {
 }
 
 footer #redes, footer #contacto {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 footer #redes a {
@@ -37,6 +37,10 @@ footer #redes a {
     margin: 1rem;
 }
 
-footer #redes a:hover {
+footer a:hover {
     cursor: pointer;
+}
+
+footer #contacto a {
+    color: #fff;
 }
