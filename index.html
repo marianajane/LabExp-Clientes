@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clientes Login</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/clients-login.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/c5c6707201.js"></script>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top bg-primary orange-background">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -23,18 +27,93 @@
                 </div>
                 <div class="navbar-collapse collapse pull-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="files/clients-home.html">CLIENTES</a></li>
-                        <li><a href="files/clients-news.html">NOTICIAS</a></li>
-                        <li><a href="https://www.experimenta.com.mx/buscadorExperiencias.php">EXPERIENCIAS</a></li>
-                        <li><a href="files/clients-profile.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>                        
+                        <li class="navbar-a"><a class="navbar-a" href="files/clients-home.html">CLIENTES</a></li>
+                        <li><a class="navbar-a" href="files/clients-news.html">NOTICIAS</a></li>
+                        <li><a class="navbar-a" href="https://www.experimenta.com.mx/buscadorExperiencias.php">EXPERIENCIAS</a></li>
+                        <li><a class="navbar-a" href="files/clients-profile.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>PERFIL</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <main class="container-fluid">
+        <div class="row">
 
-    <footer>
+            <div id="inicio-sesion" class="col-sm-12 col-md-6">
+                <div class="col-sm-8 col-md-offset-2">
+                    <h1>Inicia sesión</h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="user-email">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="user-email" placeholder="e-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="user-password">Contraseña</label>
+                            <input type="password" class="form-control" id="user-password" placeholder="Password">
+                        </div>
+                        <h6>¿Olvidaste tu <a href="#"><b>contraseña</b></a>?</h6>
 
+                        <button type="submit" class="btn btn-success pull-right">Iniciar sesión</button>
+                    </form>
+                </div>
+            </div>
+
+            <div id="registro" class="col-sm-12 col-md-6">
+                <div class="col-sm-8 col-md-offset-2">
+                    <h2>o Regístrate</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="new-user-name">Nombre de usuario</label>
+                            <input type="text" class="form-control" id="new-user-name" placeholder="Nombre de usuario">
+                        </div>
+                        <div class="form-group">
+                            <label for="new-user-email">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="new-user-email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="new-user-password">Contraseña</label>
+                            <input type="password" class="form-control" id="new-user-password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="new-user-password-confirm">Verificar contraseña</label>
+                            <input type="password" class="form-control" id="new-user-password-confirm" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary pull-right">Registrarse</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <div id="redes" class="row text-center">
+            <a href="https://www.facebook.com/experimenta.mexico"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/experimenta_mex"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/company-beta/1069214/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/experimenta.mexico/"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/user/experiologo"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a>
+            <a href="https://www.experimenta.com.mx/blog/"><i class="fa fa-rss fa-lg" aria-hidden="true"></i></a>
+
+        </div>
+        <div id="contacto" class="row">
+            <div class="col-sm-12 col-md-3 col-md-offset-3">
+                <h4>Contáctanos:</h4>
+                <p><span class="glyphicon glyphicon-earphone" aria-hidden="true" /> 5292 5707 / 01 55 5292-5707 </p>
+                <p><span class="glyphicon glyphicon-envelope" aria-hidden="true" /> <a href="mailto:atencion@experimenta.com.mx"> atencion@experimenta.com.mx</a></p>
+                <p><span class="glyphicon glyphicon-envelope" aria-hidden="true" /> canales@experimenta.com.mx</p>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <h4>Inscríbete a nuestro newsletter para recibir grandes ideas.</h4>
+                <form class="form-inline">
+                    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="e-mail">
+                    <button type="submit" class="btn btn-warning">Suscribir</button>
+                </form>
+            </div>
+        </div>
+        <div id="copyright" class="row text-center">
+            <h6>Copyright © 2004-, Experimenta de México, S.A. de C.V. Todos los derechos reservados.</h6>
+        </div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

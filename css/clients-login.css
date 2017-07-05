@@ -1,0 +1,18 @@
+main {
+    background-color: #25cad3;   
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+#inicio-sesion {
+    color: #fff; 
+    padding: 10rem 0;
+}
+
+#registro {
+    background-color: #fff;
+    padding: 10rem 0;
+}

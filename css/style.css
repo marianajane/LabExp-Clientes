@@ -1,3 +1,52 @@
+/*diana1*/
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.orange-background {
+    background-color: #ff661b;
+}
+
+.navbar-a {
+    color: #f0cfa5;
+    font-weight: 700;
+}
+
+.navbar-a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+footer {
+    border-top: 9px solid  #ff661b;
+    background-color: #393737;
+    padding: 4rem 0 2rem;
+    color: #fff;
+}
+
+footer #redes, footer #contacto {
+    margin-bottom: 3rem;
+}
+
+footer #redes a {
+    color: #393737;
+    background-color: #fff;
+    padding: 1rem;    
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+footer a:hover {
+    cursor: pointer;
+}
+
+footer #contacto a {
+    color: #fff;
+}
+
+/*Mariana*/
 .btn-primary--orange { 
    background-color: #FF661B
 }
