@@ -1,3 +1,4 @@
+/*diana1*/
 body {
     font-family: 'Muli', sans-serif;
 }
@@ -44,3 +45,14 @@ footer a:hover {
 footer #contacto a {
     color: #fff;
 }
+
+/*Mariana*/
+.btn-primary--orange { 
+   background-color: #FF661B
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+}
+
