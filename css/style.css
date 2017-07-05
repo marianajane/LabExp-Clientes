@@ -1,4 +1,5 @@
 /*diana1*/
+
 body {
     font-family: 'Muli', sans-serif;
 }
@@ -7,33 +8,43 @@ body {
     background-color: #ff661b;
 }
 
-.navbar-a {
-    color: #f0cfa5;
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
+    color: #ebd4b5;
     font-weight: 700;
 }
 
-.navbar-a:hover {
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav>li>a:hover {
     color: #fff;
     cursor: pointer;
 }
 
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #ff661b;
+}
 
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
 
 footer {
-    border-top: 9px solid  #ff661b;
+    border-top: 9px solid #ff661b;
     background-color: #393737;
     padding: 4rem 0 2rem;
     color: #fff;
 }
 
-footer #redes, footer #contacto {
+footer #redes,
+footer #contacto {
     margin-bottom: 3rem;
 }
 
 footer #redes a {
     color: #393737;
     background-color: #fff;
-    padding: 1rem;    
+    padding: 1rem;
     border-radius: 50%;
     margin: 1rem;
 }
@@ -46,13 +57,14 @@ footer #contacto a {
     color: #fff;
 }
 
+
 /*Mariana*/
-.btn-primary--orange { 
-   background-color: #FF661B
+
+.btn-primary--orange {
+    background-color: #FF661B
 }
 
 div a {
     text-decoration: none;
     color: white;
 }
-
