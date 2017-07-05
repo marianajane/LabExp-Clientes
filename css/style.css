@@ -1,0 +1,42 @@
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.orange-background {
+    background-color: #ff661b;
+}
+
+.navbar-a {
+    color: #f0cfa5;
+    font-weight: 700;
+}
+
+.navbar-a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+footer {
+    border-top: 9px solid  #ff661b;
+    background-color: #393737;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer #redes, footer #contacto {
+    margin-bottom: 2rem;
+}
+
+footer #redes a {
+    color: #393737;
+    background-color: #fff;
+    padding: 1rem;    
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+footer #redes a:hover {
+    cursor: pointer;
+}
