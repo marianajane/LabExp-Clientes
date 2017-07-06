@@ -1,0 +1,57 @@
+.btn-primary--blue {
+    background-color: #25cad3;
+}
+
+.combo:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+}
+
+div.scroll {
+    width: 470px;
+    height: 430px;
+    overflow: scroll;
+    border-style: outset;
+}
+
+.margin-top {
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #94d500;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.overlay--fucsia {
+    background-color: #ea1d75;
+}
+
+.overlay--purple {
+    background-color: #b24ec4;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
