@@ -1,0 +1,32 @@
+.panel-success>.panel-heading,
+#balance-cliente thead {
+    background-color: #25cad3;
+    text-decoration: none;
+    color: #fff;
+}
+
+div.list-group h4 {
+    color: #25cad3;
+}
+
+main {
+    padding-top: 6rem;
+}
+
+#client-header img {
+    width: 100%;
+}
+
+#datos-cliente,
+#balance-cliente {
+    padding: 5vh 3vw;
+}
+
+/* Modal */
+div.modal-header h2 {
+    color: #fff;
+}
+
+.orange {
+  color:#eb5b11; 
+}

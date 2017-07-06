@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="108px" height="112.8px" viewBox="0 0 108 112.8" enable-background="new 0 0 108 112.8" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="54" y1="112.7998" x2="54" y2="4.882813e-004">
+	<stop  offset="0" style="stop-color:#1B1464"/>
+	<stop  offset="0.115" style="stop-color:#161052"/>
+	<stop  offset="0.3699" style="stop-color:#0C092E"/>
+	<stop  offset="0.6099" style="stop-color:#060415"/>
+	<stop  offset="0.8266" style="stop-color:#010105"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<rect fill="url(#SVGID_1_)" width="108" height="112.8"/>
+<g>
+	<g>
+		<path fill="#FFFFFF" d="M41.641,18.982c-24.236,5.98-25.051,55.674,14.665,44.676c-15.479-2.24-11.033-20.205,1.822-19.547
+			C79.919,45.227,75.739,10.568,41.641,18.982z M59.073,36.109c-1.182,0-2.139-0.958-2.139-2.139s0.957-2.139,2.139-2.139
+			s2.139,0.958,2.139,2.139S60.255,36.109,59.073,36.109z"/>
+		<path fill="#FFFFFF" d="M86.56,47.13c-12.367-0.297-14.648-8.168-14.648-8.168c-0.668,3-5.084,6.333-8,6.333
+			C63.911,45.295,73.325,57.666,86.56,47.13z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 21.771 76.8408)" fill="#FFFFFF" font-family="'OratorStd'" font-size="5.7826">EMPRESA</text>
+	<text transform="matrix(1 0 0 1 21.4277 89.3496)" fill="#FFFFFF" font-family="'Aharoni-Bold'" font-size="22.8771">patito</text>
+</g>
+</svg>
