@@ -1,0 +1,46 @@
+.jumbotron{
+    border-radius:0px!important;
+    box-shadow:1px 1px 4px rgba(0,0,0,0.4);
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/img/aventura (4).jpg");
+    position: relative;
+    height: 100%;
+    color:white;
+    margin-top: 11px;
+
+
+}
+
+.jumbotron .btn{
+    border-radius:0px!important;
+    box-shadow:1px 1px 4px rgba(0,0,0,0.4);
+    padding:10px 40px;
+}
+.informacion{
+    text-align: justify;
+}
+.importante{
+    font-size: 20px;
+}
+.importante__precio{
+    font-size: 30px;
+    color: #ff661b;
+}
+.panel-heading{
+    background-color: #25cad3 !important;
+    color: white !important;
+
+}
+.btn--orange{
+    background-color:#ff661b;
+    color: white;
+    border-color:#ff661b;
+    box-shadow:1px 1px 4px rgba(0,0,0,0.4);
+
+}
+.btn:before{
+    background-color:#ff661b; 
+}
