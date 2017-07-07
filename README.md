@@ -1,5 +1,12 @@
 # LabExp-Clientes
 ## MICROSITIO DE VENTA PARA CANALES
+
+Propuesta hecha por el squad "Las sobrinas del tio Gamboin"
+Diana Berenice Vázquez Camacho
+Nely
+Mariana Muñoz Santos
+
+
 ### Introducción
   Experimenta de México es una empresa dedicada a la comercialización de experiencias dentro de
 la República Mexicana, la forma de vender las experiencias es mediante certificados de regalos
