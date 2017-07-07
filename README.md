@@ -184,4 +184,5 @@ experiencia, paquete, descripción y precio (pantalla similar en la que esta en 
 
 ### Mock ups
 
-<img src="assets/img/MOCKUPS1.jpg" />
+![img_20170704_153208](https://user-images.githubusercontent.com/25911904/27966824-45a57372-6306-11e7-8d7a-aad9057b92e3.jpg)
+![img_20170704_152537](https://user-images.githubusercontent.com/25911904/27966829-47d42bb6-6306-11e7-8a75-822100f9df0b.jpg)
