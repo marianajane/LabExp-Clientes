@@ -31,7 +31,7 @@ mostrar las mejores de acuerdo a la iniciativa.
   El micrositio deberá de contar con una página principal de Inicio de Sesión y Registro, la cual
 permitirá a la plataforma identificar al cliente, y en caso contrario registrase en el sitio.
 
-usuario: patitoadm@gmail.com
+usuario: patitoadm@gmail.com /
 contraseña: contra1x
 
 #### Página general
