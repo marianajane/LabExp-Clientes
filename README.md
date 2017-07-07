@@ -1,10 +1,10 @@
 # LabExp-Clientes
 ## MICROSITIO DE VENTA PARA CANALES
 
-Propuesta hecha por el squad "Las sobrinas del tio Gamboin"
-Diana Berenice Vázquez Camacho
-Nely
-Mariana Muñoz Santos
+#### Propuesta hecha por el squad "Las sobrinas del tio Gamboin"
+##### Diana Berenice Vázquez Camacho
+##### Nely
+##### Mariana Muñoz Santos
 
 
 ### Introducción
