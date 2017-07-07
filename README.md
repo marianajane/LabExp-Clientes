@@ -181,3 +181,7 @@ experiencia, paquete, descripción y precio (pantalla similar en la que esta en 
 • duración
 • lo que debes saber
 • precio
+
+### Mock ups
+
+<img src="assets/img/MOCKUPS1.jpg" />
