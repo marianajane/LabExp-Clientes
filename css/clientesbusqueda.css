@@ -14,7 +14,7 @@ h1{
         margin-left: -620px;
 }
 
-#playground-container {
+#playground-container{
     height: 500px;
     overflow: hidden !important;
     -webkit-overflow-scrolling: touch;
@@ -122,7 +122,7 @@ span.input-group-addon i {
     font-size: 11px;
     text-align: center;
 }
-img{
+.experiencias{
     margin: 20px;
 }
 .more{
