@@ -6,7 +6,6 @@
 ##### Nely Abigail Flores Rojas
 ##### Mariana Muñoz Santos
 
-
 ### Introducción
   Experimenta de México es una empresa dedicada a la comercialización de experiencias dentro de
 la República Mexicana, la forma de vender las experiencias es mediante certificados de regalos
@@ -31,6 +30,9 @@ mostrar las mejores de acuerdo a la iniciativa.
 #### PRIMER PANTALLA (Inicio de sesión)
   El micrositio deberá de contar con una página principal de Inicio de Sesión y Registro, la cual
 permitirá a la plataforma identificar al cliente, y en caso contrario registrase en el sitio.
+
+usuario: patitoadm@gmail.com
+contraseña: contra1x
 
 #### Página general
 
