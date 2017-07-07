@@ -41,7 +41,7 @@
             <div id="inicio-sesion" class="col-sm-12 col-md-6">
                 <div class="col-sm-8 col-md-offset-2">
                     <h1>Inicia sesión</h1>
-                    <form  id="login-form" data-toggle="validator" role="form">
+                    <form id="login-form" data-toggle="validator" role="form">
                         <div class="form-group">
                             <label for="user-email" class="control-label">Correo Electrónico</label>
                             <input type="email" class="form-control" id="user-email" placeholder="Email" data-error="Esta dirección es incorrecta, intenta de nuevo" required>
@@ -51,7 +51,7 @@
                             <label for="user-password">Contraseña</label>
                             <input type="password" class="form-control" data-minlength="8" id="user-password" placeholder="Password">
                         </div>
-                        <h6>¿Olvidaste tu <button type="button" class="btn btn-xs btn-link">contraseña</button>?</h6>
+                        <h6>¿Olvidaste tu <button type="button" class="btn btn-xs btn-link" data-toggle="modal" data-target="#exampleModal">contraseña</button>?</h6>
 
                         <button type="submit" class="btn btn-success pull-right">Iniciar sesión</button>
                     </form>
@@ -84,24 +84,32 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary pull-right" data-toggle="modal" data->Registrarse</button>
+                        <button type="submit" class="btn btn-primary pull-right">Registrarse</button>
                     </form>
                 </div>
             </div>
         </div>
     </main>
 
-    <!-- MENSAJE DE REGISTRO-->
+    <!-- MENSAJE contraseña-->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">REGISTRO EN PROCESO</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Solicitud de contraseña registrada</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
-                    Tu solicitud ha sido procesada. Se te enviará correo para confirmar tu registro.
+                    Escribe la dirección de correo electrónico asociada a tu cuenta y se te enviará un correo.
                 </div>
+                <form>
+                    <div class="form-group">
+                        <label for="user-email" class="control-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="user-email" placeholder="Email" data-error="Esta dirección es incorrecta, intenta de nuevo" required>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    
+                </form>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
                 </div>
