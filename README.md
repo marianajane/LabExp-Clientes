@@ -18,7 +18,9 @@ perfiles y la elaboración de un formulario, el cual segmente y delimite las exp
 mostrar las mejores de acuerdo a la iniciativa.
 
 ### DESCRIPCIÓN DEL PROYECTO
-
+### Mockup 
+ ![img_20170707_112357](https://user-images.githubusercontent.com/25911904/27967330-3d703140-6308-11e7-8d45-384cdf82aae1.jpg)
+ 
 #### PRIMER PANTALLA (Inicio de sesión)
   El micrositio deberá de contar con una página principal de Inicio de Sesión y Registro, la cual
 permitirá a la plataforma identificar al cliente, y en caso contrario registrase en el sitio.
@@ -45,7 +47,10 @@ Para el registro de usuario se requiere:
 • Confirmar contraseña (verificar que sea la anterior)
 • Botón de registrarse
 
-#### MODAL INICIATIVA (formulario)
+#### INICIATIVA (formulario)
+
+![img_20170707_112410](https://user-images.githubusercontent.com/25911904/27967516-f1e28574-6308-11e7-9076-a55a151cb913.jpg)
+
   Al ingresar al sitio abrir un pop up (modal) con la presentación para realizar un cuestionario y así
 construir tu iniciativa.
 texto (Déjanos ayudarte con tu iniciativa en unos cuantos clicks, selecciona las opciones que mejor
@@ -62,6 +67,9 @@ barrita desplazable).
 hayan seleccionado para esa iniciativa.
 
 #### SUBPANTALLA
+
+![img_20170707_112421](https://user-images.githubusercontent.com/25911904/27967334-3d7e30d8-6308-11e7-9700-234a8be57ccb.jpg)
+
   Al finalizar este formulario, se deberá crear una página en donde se visualice las experiencias que
 hayan seleccionado a partir del formulario y los filtros de este.
 En la página se mostrará 4 experiencias y agregar:
@@ -74,7 +82,15 @@ correo: francisco.rodriguez@experimenta.com.mx)
 #### PANTALLA PRINCIPAL (pendiente a elaborar)
   Ésta página es igual a la página de “experiencias para ti” del ecommerce experimenta.com.mx.
 (no se creará en este momento, ya que es una copia)
+
+### Mockup 
+En un principio pensamos juntar el formulario de la primera pantalla y esta página, el mockup de este apartado correponde a la 2da imagen
+
 #### SEGUNDA PANTALLA (Perfil de usuario).
+
+### Mockup
+![img_20170707_112426](https://user-images.githubusercontent.com/25911904/27967332-3d7b805e-6308-11e7-9404-89fce89be056.jpg)
+
   En esta página se visualizará el perfil del usuario dónde se tendrán tres apartados, uno donde se
 presente la información detallada del socio, el segundo llamado cuentas y balance mensual el cual
 mostrará el estado de los pedidos de las experiencias, y el tercero, el llamado aclaración esta
@@ -144,7 +160,11 @@ responsable.
   Al enviar la aclaración enviar directamente a experimenta y al socio.
 correo para enlazar (ingresos@experimenta.com.mx)
 
-#### SEXTA PANTALLA (Noticias).
+#### SEXTA PANTALLA (Novedades).
+
+### Mockup
+![img_20170707_112416](https://user-images.githubusercontent.com/25911904/27967328-3d5f9696-6308-11e7-9346-883219fee908.jpg)
+
 En esta pantalla estará dividida en 3 secciones
 1. Nuevas experiencias
 En esta sección se mostrarán las nuevas experiencias afiliadas; el objetivo es mostrar las
@@ -169,6 +189,10 @@ que sea relevante para ellos
 • descripción de la misma al menos 200 caracteres
 
 #### Sexta Pantalla (Detalle de Noticias)
+
+### Mockup 
+![img_20170707_112439](https://user-images.githubusercontent.com/25911904/27967331-3d7a4298-6308-11e7-9eb8-0cf285efe4ee.jpg)
+
   Cuando se selecciona alguna opción de las pantallas anteriores en nuevas noticias y nuevos
 paquetes se abrirá una nueva pantalla en donde se encontrara el detalle y las imágenes de la
 experiencia, paquete, descripción y precio (pantalla similar en la que esta en el ecommerce).
@@ -182,7 +206,9 @@ experiencia, paquete, descripción y precio (pantalla similar en la que esta en 
 • lo que debes saber
 • precio
 
-### Mock ups
+### Mockups
+
+El flujo completo
 
 ![img_20170704_153208](https://user-images.githubusercontent.com/25911904/27966824-45a57372-6306-11e7-8d7a-aad9057b92e3.jpg)
 ![img_20170704_152537](https://user-images.githubusercontent.com/25911904/27966829-47d42bb6-6306-11e7-8a75-822100f9df0b.jpg)
