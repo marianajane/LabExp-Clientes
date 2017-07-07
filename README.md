@@ -3,7 +3,7 @@
 
 #### Propuesta hecha por el squad "Las sobrinas del tio Gamboin"
 ##### Diana Berenice Vázquez Camacho
-##### Nely
+##### Nely Abigail Flores Rojas
 ##### Mariana Muñoz Santos
 
 
