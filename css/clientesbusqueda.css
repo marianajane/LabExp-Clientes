@@ -1,25 +1,33 @@
+h2{
+    text-align: center;
+}
+h1{
+   text-align: center;
+}
+.container{
+  margin-left: -620px;   
+}
 #playground-container {
     height: 500px;
     overflow: hidden !important;
     -webkit-overflow-scrolling: touch;
+        margin-left: -620px;
 }
 
 #playground-container {
     height: 500px;
     overflow: hidden !important;
     -webkit-overflow-scrolling: touch;
+        margin-left: -620px;
 }
 body, html{
      height: 100%;
-    background-repeat: no-repeat;
-      font-family: 'Muli', sans-serif;
-
-
-        background-size: cover;
+    font-family: 'Muli', sans-serif;
+    background-size: cover;
 }
 
 .main{
-    margin:100px 15px;
+    margin:20px 2px;
 }
 
 h1.title {
@@ -60,7 +68,7 @@ input::-webkit-input-placeholder {
 }
 .form-control {
     height: auto!important;
-padding: 8px 12px !important;
+    padding: 8px 12px !important;
 }
 .input-group {
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
@@ -90,8 +98,7 @@ padding: 8px 12px !important;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
 }
 .main-center{
-    margin-top: 30px;
-    margin: 0 auto;
+    margin-left: 750px;
     max-width: 400px;
     padding: 10px 40px;
     background:#25cad3;
@@ -114,4 +121,13 @@ span.input-group-addon i {
 .login-register{
     font-size: 11px;
     text-align: center;
+}
+img{
+    margin: 20px;
+}
+.more{
+    margin: 55px;
+    background-color: #ff631b;
+    color: white;
+    border-color: #ff631b;
 }
