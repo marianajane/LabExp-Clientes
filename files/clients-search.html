@@ -11,11 +11,11 @@
 	<link rel="stylesheet" href="../css/style.css" />
 	<link rel="stylesheet" href="../css/clientesbusqueda.css">		
 	<link href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700" rel="stylesheet">
-
 </head>
+<body><br><br>
 <header>
     <nav class="navbar navbar-inverse navbar-fixed-top bg-primary orange-background">
-            <div class="container">
+            
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="sr-only">Experimenta Clientes</span>
@@ -30,51 +30,44 @@
                         <li><a class="enlace" href="clients-profile.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Perfil</a></li>
                     </ul>
                 </div>
-            </div>
+         
         </nav>
 </header>
 
-<body>
-		<br>
-		<br>
-		<div class="row">
-			<div class="col-xs-6">
-					<h1>Bienvenido a tu portal</h1>
-			</div>
-			<div class="col-xs-6">
-				<h2>Busca tu experiencia</h2>
-			</div>	
-		</div>
-		
-		<div class="row">
+	<div class="row">
 		<div class="col-xs-6">
-			
-			<img src="../assets/img/experiencias.jpg">
-			<button  type="button" class="btn btn-default btn-lg btn-block more">
- 		 <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Ver todos las experiencias
-		</button>
+			<h1>Bienvenido a tu portal</h1>
 		</div>
+		<div class="col-xs-6">
+			<h2>Busca tu experiencia</h2>
+		</div>	
+	</div>
+		<div class="row">
+			<div class="col-xs-6">
+			
+				<img class="experiencias"src="../assets/img/experiencias.jpg">
+				<button  type="button" class="btn btn-default btn-lg btn-block more">
+ 		 		<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Ver todos las experiencias
+				</button>
+	        </div>
 		<div class="col-xs-1">
 			<div class="container">
-			<div class="row main">
-				<div class="main-login main-center">
-				<h5>Si deseas una busqueda de experiencia llena el siguiente formulario</h5>
-					<form class="" method="post" action="#">
-
-
+					<div class="row main">
+						<div class="main-login main-center">
+						<h5>Si deseas una busqueda de experiencia llena el siguiente formulario</h5>
+						<form class="" method="post" action="#">
                     <div class="form-group">
                         <label for="name" class="cols-sm-2 control-label">Su ubicación</label>
                         <div class="cols-sm-10">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-map-marker fa" aria-hidden="true"></i></span>
                                 <select id="selectbasic" name="selectbasic" class="form-control">
-        <option value="">Estado de Mexico</option>
-        <option value="">Ciudad de Mexico</option>
-      </select>
+        						<option value="">Estado de Mexico</option>
+        						<option value="">Ciudad de Mexico</option>
+      							</select>
                             </div>
                         </div>
                     </div>
-
                     <div class="form-group">
                         <label for="email" class="cols-sm-2 control-label">Número de personas</label>
                         <div class="cols-sm-10">
@@ -84,7 +77,6 @@
                             </div>
                         </div>
                     </div>
-
 						<div class="form-group">
 							<label for="username" class="cols-sm-2 control-label">Monto</label>
 							<input type="range" name="rangeInput" min="290" max="26000" onchange="updateTextInput(this.value);">
@@ -94,40 +86,31 @@
 									<input type="text" class="form-control" name="username" id="textInput"  placeholder="Monto" value=""/>
 								</div>
 							</div>
-						</div
-
+						</div>
                     <div class="form-group">
                         <label for="password" class="cols-sm-2 control-label">Categoria</label>
                         <div class="cols-sm-10">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-heart fa-lg" aria-hidden="true"></i></span>
                                 <select id="selectbasic" name="selectbasic" class="form-control">
-        <option value="">Spa</option>
-        <option value="">Restaurante</option>
-        <option value="">Hotel</option>
-        <option value="">Aventura</option>
-      </select>
+        						<option value="">Spa</option>
+        						<option value="">Restaurante</option>
+        						<option value="">Hotel</option>
+       							 <option value="">Aventura</option>
+      							</select>
                             </div>
                         </div>
                     </div>
-
-
                     <div class="form-group ">
                         <a href="#" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Enviar</a>
                     </div>
-
 					</form>
 				</div>
 			</div>
+		</div>	
 		</div>
-			
 		</div>
-
-			
-		</div>
-
 		<footer class="container-fluid">
-
         <div id="redes" class="row text-center">
             <a href="https://www.facebook.com/experimenta.mexico"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
             <a href="https://twitter.com/experimenta_mex"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
