@@ -32,7 +32,7 @@ mostrar las mejores de acuerdo a la iniciativa.
 permitirá a la plataforma identificar al cliente, y en caso contrario registrase en el sitio.
 
 usuario: patitoadm@gmail.com /
-contraseña: contra1x
+contraseña: contra1X
 
 #### Página general
 
